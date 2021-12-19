@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite" parallel="classes" thread-count="2">
+    <test name="A1 project">
+        <packages>
+            <package name="com.shop.a1.project.test"/>
+        </packages>
+    </test>
+</suite>
